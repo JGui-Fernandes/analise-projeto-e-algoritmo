@@ -26,7 +26,7 @@ public class Util {
         int[] listaOrdenada = lista.clone();
 
         for (int i = 0; i < listaOrdenada.length - 1; i++) {
-            for (int k = 0; k < listaOrdenada.length - 1 - i; k++) {
+            for (int k = 0; k < listaOrdenada.length - 1; k++) {
 
                 if (listaOrdenada[k] > listaOrdenada[k + 1]) {
                     int temp = listaOrdenada[k];
