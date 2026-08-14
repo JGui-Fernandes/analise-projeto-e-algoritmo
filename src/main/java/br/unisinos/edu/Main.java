@@ -1,3 +1,5 @@
+package br.unisinos.edu;
+
 import java.util.Scanner;
 
 public class Main {
@@ -22,7 +24,7 @@ public class Main {
             System.out.println("4 - Gerar uma nova lista");
             opcao = teclado.nextInt();
 
-            if(opcao < 0 || opcao > 3){
+            if(opcao < 0 || opcao > 4){
                 System.out.println("\n\nOpção inválida!\n\n");
                 continue;
             }
