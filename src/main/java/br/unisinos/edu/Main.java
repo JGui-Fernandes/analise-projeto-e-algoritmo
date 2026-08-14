@@ -1,3 +1,5 @@
+package br.unisinos.edu;
+
 public class Main {
     public static void main(String[] args) {
         Util util = new Util();
@@ -8,7 +10,7 @@ public class Main {
 
         long inicio = System.nanoTime();
 
-//        util.imprimeLista(lista);
+        util.imprimeLista(lista);
 
 //        util.ordenarLista(lista);
 

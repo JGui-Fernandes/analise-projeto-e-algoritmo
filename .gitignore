@@ -3,8 +3,11 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
-Aula 1.iml
+*.iml
 .idea/
+
+### Maven ###
+target/
 
 ### Eclipse ###
 .apt_generated
