@@ -12,7 +12,9 @@ public class Main {
 
         long inicio = System.nanoTime();
 
-        util.bubbleSort(lista);
+//        util.bubbleSort(lista);
+//
+//        util.insertionSort(lista);
 
         long fimFim = System.nanoTime();
 
