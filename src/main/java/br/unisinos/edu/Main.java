@@ -4,15 +4,23 @@ public class Main {
     public static void main(String[] args) {
         Util util = new Util();
 
-        int tamanhoLista = 1000;
+        int tamanhoLista = 500000;
         int limiteLista = 10500;
         int[] lista = util.gerarLista(tamanhoLista, limiteLista);
 
-//        util.insertionSort(lista);
+        util.quickSort(lista);
 
         long inicio = System.nanoTime();
 
-        util.bubbleSort(lista);
+//        util.bubbleSort(lista);
+
+//        util.insertionSort(lista);
+
+//        util.shellSott(lista);
+
+//        util.quickSort(lista);
+
+//        util.mergeSort(lista);
 
         long fimFim = System.nanoTime();
 
